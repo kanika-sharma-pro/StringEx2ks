@@ -7,15 +7,18 @@
  */
 import java.util.Scanner;
 
+import static java.lang.System.*;
+
 public class Exercise11_TrimmingAndReplacement {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        
+        Scanner scanner = new Scanner(in);
+
         System.out.print("Enter a sentence: ");
         String sentence = scanner.nextLine();
         
         // TODO: Trim the sentence and replace all "and" with "&"
-        
+        System.out.println(sentence.trim());
+        System.out.println(sentence.replace("and",  "&"));
         scanner.close();
     }
 }
