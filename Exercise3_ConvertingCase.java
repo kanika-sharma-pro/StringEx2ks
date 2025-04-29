@@ -11,10 +11,10 @@ import java.util.Scanner;
 public class Exercise3_ConvertingCase {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        
+
         System.out.print("Enter a message: ");
         String message = scanner.nextLine();
-        
+
         // TODO: Convert and print the message in all uppercase
         System.out.println(message.toUpperCase());
         // TODO: Convert and print the message in all lowercase
