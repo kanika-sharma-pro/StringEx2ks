@@ -12,7 +12,7 @@ public class Exercise4_StringComparison {
         Scanner scanner = new Scanner(System.in);
         
         System.out.print("Enter the first string: ");
-        String str = scanner.nextLine();
+        String str1 = scanner.nextLine();
         
         System.out.print("Enter the second string: ");
         String str2 = scanner.nextLine();
